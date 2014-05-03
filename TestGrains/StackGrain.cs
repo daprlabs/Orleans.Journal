@@ -20,19 +20,9 @@ namespace TestGrains
     /// <summary>
     /// The stack grain.
     /// </summary>
+    [JournalProvider("DefaultJournal")]
     public class StackGrain : JournaledGrainBase<StackGrain, Stack<int>>, IStackGrain
     {
-/*
-        public override async Task ActivateAsync()
-        {
-            if (this.State.Value == null)
-            {
-                this.State.Value = new Stack<int>();
-            }
-
-            await base.ActivateAsync();
-        }*/
-
         /// <summary>
         /// Returns the size of the stack.
         /// </summary>
