@@ -39,3 +39,6 @@ public class StackGrain : JournaledGrainBase<StackGrain, Stack<int>>, IStackGrai
     }
 }
 ```
+
+## License
+Please see the included `LICENSE` file. Note that the contents of the `Dependencies` folder are licensed separately and contain their own license file.
