@@ -1,3 +1,6 @@
+### NOTE: This repository is obsolete and will not work on current versions of Orleans! ###
+
+
 Orleans.Journal
 ===============
 
