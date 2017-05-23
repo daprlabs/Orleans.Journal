@@ -4,7 +4,7 @@
 Orleans.Journal
 ===============
 
-Event Sourcing for Microsoft Orleans (https://orleans.codeplex.com)
+Event Sourcing for Microsoft Orleans (https://github.com/dotnet/orleans)
 
 # Usage
 Grain implementations must have the [JournalProvider("SomeCloudConfigProperty")] attribute, where the provider is the name of a property defined in the Azure Cloud Service's Configuration.
